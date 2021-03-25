@@ -4,10 +4,6 @@
 ![login-v1-image](https://res.cloudinary.com/dnivakimu/image/upload/v1616712254/%E6%88%AA%E5%9C%96_2021-03-26_%E4%B8%8A%E5%8D%886.43.55_ew30me.png)
 
 
-## 功能列表
-+ 透過餐廳名稱搜尋
-+ 顯示餐廳詳細資料包括類別、地址、電話、評分、圖片等資料
-
 ## 啟動方式
 + 將專案clone到本地端
 ```
