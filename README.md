@@ -1,7 +1,7 @@
 # Login - 登入系統
-透過核對users.js帳號密碼 來登入頁面
+透過核對users.js裡的帳號密碼 來登入頁面
 
-![login-v1-image](https://res.cloudinary.com/dnivakimu/image/upload/v1616712254/%E6%88%AA%E5%9C%96_2021-03-26_%E4%B8%8A%E5%8D%886.43.55_ew30me.png)
+![login-v1-image](https://res.cloudinary.com/dnivakimu/image/upload/v1616758823/%E6%88%AA%E5%9C%96_2021-03-26_%E4%B8%8B%E5%8D%887.39.52_vc6rq1.png)
 
 
 ## 啟動方式
