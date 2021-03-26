@@ -34,7 +34,7 @@ function loginCheck(email, password) {
   ]
   for (let i = 0; i < users.length; i++) {
     if (users[i].email === email && users[i].password === password) {
-      return 'success'
+      return { status: 'success', name: users[i].firstName }
     }
   }
   return 'wrong'

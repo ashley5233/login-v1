@@ -19,19 +19,19 @@ app.post('/', (req, res) => {
   const email = req.body.email
   const password = req.body.password
   const info = 'wrong password!'
+  //call login function
   let loginCheck = users(email, password)
+  let status = loginCheck.status
+  let name = loginCheck.name
   // login success
-  if (loginCheck === 'success') {
-    return res.render('welcome')
+  if (status === 'success') {
+
+    return res.render('welcome', { name })
   }
   //login fail
   if (loginCheck === 'wrong') {
     return res.render('index', { info })
   }
-})
-
-app.get('/welcome', (req, res) => {
-  return res.render('welcome')
 })
 
 app.use(express.static('public'))
